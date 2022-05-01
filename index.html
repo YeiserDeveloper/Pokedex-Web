@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokedex</title>
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <!-- Main content -->
+        <div class="container">
+            <!-- SearchPokemon -->
+            <form id="search_form" role="search" onsubmit="searchPokemon(event)">
+                <input type="text" name="pokemon" autocomplete="off" placeholder="Name or ID for Pokemon">
+                <button class="btnSearch">
+                    <img src="/img/search.svg" alt="Search">
+                </button>
+            </form>
+            <!-- container card -->
+            <div data-poke-card class="poke_card">
+                <!-- Title -->
+                <div data-poke-name>Pokedex</div>
+                <!-- Images -->
+                <div data-poke-img-container class="img_container">
+                    <img data-poke-img class="poke_img" src="/img/poke-shadow.png"/>
+                </div>
+                <!-- Infomations -->
+                <div data-poke-info class="info">
+                    <!-- ID -->
+                    <div data-poke-id></div>
+                    <!-- TYPE -->
+                    <div data-poke-types class="poke_types"></div>
+                    <!-- STATS -->
+                    <div data-poke-stats class="poke_stats"></div>
+                    <!-- DESCRIPTIONS -->
+                    <div data-poke-datas class="poke_datas"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="atribution">
+            Atribucion de todo el contenido:
+            <a href="https://www.youtube.com/watch?v=i8Zfq87HoGg">Programación Accesible</a>
+        </div>
+
+        <!-- Scripts -->
+        <script src="/js/main.js" type="text/javascript" defer></script>
+    </body>
+</html>
