@@ -1,6 +1,6 @@
 # Pokedex con pokeAPI
 
-Este proyecto es una aplicación que permite visualizar la información de los pokemones de la API de [PokeAPI](https://pokeapi.co). Cabe destacar que las atribuciones de este proyecto son del canal [Programación Accesible](https://www.youtube.com/channel/UCCsSBV1Jzk_ZtfPKKddNXgA)
+Este proyecto es una aplicación que permite visualizar la información de los pokemones de la API de [PokeAPI](https://pokeapi.co). Cabe destacar que las atribuciones de este proyecto son del canal [Programación Accesible](https://www.youtube.com/channel/UCCsSBV1Jzk_ZtfPKKddNXgA).
 
 ## Screenshot
 
